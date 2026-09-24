@@ -1,0 +1,187 @@
+
+body {
+    margin: 0;
+    background-color: #f8fafc;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main tracking section */
+
+#tracking-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    gap: 70px;
+}
+
+
+/* Left side */
+
+#tracking-content {
+    max-width: 600px;
+}
+
+.tracking-label {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#tracking-content h1 {
+    color: #0f172a;
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 0 0 20px;
+}
+
+.tracking-text {
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+
+/* Tracking input box */
+
+#tracking-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+#input-container {
+    height: 55px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border: 1px solid #dbe2ea;
+    border-radius: 10px;
+
+    padding: 0 15px;
+}
+
+#input-container i {
+    color: #2563eb;
+    margin-right: 10px;
+}
+
+#tracking-number {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    font-size: 15px;
+    color: #0f172a;
+}
+
+#tracking-number::placeholder {
+    color: #94a3b8;
+}
+
+
+/* Track button */
+
+#track-button {
+    height: 55px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 0 20px;
+
+    background-color: #2563eb;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#track-button i {
+    margin-left: 8px;
+}
+
+#track-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Help text */
+
+#tracking-help {
+    color: #64748b;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+#tracking-help a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Right side */
+
+#tracking-image {
+    width: 350px;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 40px;
+
+    background-color: #2563eb;
+    border-radius: 25px;
+
+    color: white;
+
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.2);
+}
+
+.tracking-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    color: #2563eb;
+
+    border-radius: 15px;
+
+    margin-bottom: 25px;
+}
+
+.tracking-icon i {
+    font-size: 25px;
+}
+
+#tracking-image h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 15px;
+}
+
+#tracking-image p {
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
